@@ -12,8 +12,12 @@ package util;
 public class Util {
     
     
-    public void CalcularIMC(){
+    public double CalcularIMC(){
+        double peso = 80;
+        double altura = 1.70;
+        double imc = peso/(altura*altura);
         
+        return imc;
     }
     
 }
